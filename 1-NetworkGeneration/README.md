@@ -107,10 +107,12 @@ Code in this subdirectory was originally written by Mainak Sarkar.
 7.	`nodal_disorder.m` - Specific to lattice networks 
 8.	`random_fiber_eliminator.m` and `random_fiber_eliminator_adv.m` - Applicable to other networks 
 9.	`renumbering_el_nodes.m` - Applicable to other networks 
-10.	`stl_gen_lattice_network.m` - Applicable to other networks 
-11. `ghost_node_remover.m` - It is also a very general function file, applicable to any network.
+10.	`find_node_numbers_2Dlattice.m` - Applicable to 2D lattice networks only
+11. `ghost_node_remover.m` - It is also a very general function file, applicable to any network
 12. `find_avg_node_connectivity.m` - Useful for any network.
-13. `draw_edge_fibers.m` - It is best suitable for polygonal (Voronoi) lattice-based networks to make robust loading edge.
+13. `draw_edge_fibers.m` - It is best suitable for polygonal (Voronoi) lattice-based networks to make robust loading edge
+14. `rhonodal_finder.m` - For 2D lattice network only
+15. `distance_finder.m` - Applicable to other networks 
 
 ##### Description of generated network:
 
